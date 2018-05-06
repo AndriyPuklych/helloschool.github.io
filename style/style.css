@@ -2,6 +2,9 @@
 	background: url(img/background-2462431_1920.jpg) no-repeat;
 }
 */
+.navbar .brand{
+		margin-left: 0;
+}
 .navbar-inner{
 	background-image: none;
 	background-color: #fff;
@@ -12,12 +15,10 @@
 .brand{
 	background: url(img/hello.png) no-repeat;
 	height: 80px;
-	width: 70%;
+	width: 65%;
 	margin-top: -10px;
 }
-.nav{
-	margin-left: 60px;
-}
+
 .active{
 	background-image: #d61e1e;
 }
