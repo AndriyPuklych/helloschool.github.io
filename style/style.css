@@ -1,28 +1,4 @@
-/*.fon{
-	background: url(img/background-2462431_1920.jpg) no-repeat;
-}
-*/
-.navbar .brand{
-		margin-left: 0;
-}
-.navbar-inner{
-	background-image: none;
-	background-color: #fff;
-	padding-left: 0;
-	border: none;
-	box-shadow: none;
-}
-.brand{
-	background: url(img/hello.png) no-repeat;
-	height: 80px;
-	width: 65%;
-	margin-top: -10px;
-}
-
-.active{
-	background-image: #d61e1e;
-}
-#header{
+ #header{
 	background: url(img/shield-2300042_19201.png);
 	background-size: 100% 100%;
 	height: 600px;
@@ -60,6 +36,10 @@
 	text-shadow: 1px 1px 2px black, 0 0 1em red;
 	line-height: 40px;
 	padding-left: 65%;
+}
+#content{
+	background: #00FFFF;
+	height: 50px;
 }
 #footer{
 	background: #333;
