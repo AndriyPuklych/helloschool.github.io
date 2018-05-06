@@ -1,0 +1,67 @@
+/*.fon{
+	background: url(img/background-2462431_1920.jpg) no-repeat;
+}
+*/
+.navbar-inner{
+	background-image: none;
+	background-color: #fff;
+	padding-left: 0;
+	border: none;
+	box-shadow: none;
+}
+.brand{
+	background: url(img/hello.png) no-repeat;
+	height: 80px;
+	width: 70%;
+	margin-top: -10px;
+}
+.nav{
+	margin-left: 60px;
+}
+.active{
+	background-image: #d61e1e;
+}
+#header{
+	background: url(img/shield-2300042_19201.png);
+	background-size: 100% 100%;
+	height: 600px;
+
+}
+
+		/*autoslider*/
+		#slider{
+			width: 640px;
+			height: 128px;
+/*			border: 5px solid black;
+*/			margin: 50px 55% auto;
+			overflow: hidden;
+		}
+		#polosa{
+		/*	background: pink;
+		*/	width: 896px;
+			position: relative;
+			left: 128px;
+			transition: all ease 1s;
+		}
+		#polosa img{
+			float: left;
+		}
+		#polosa::after{
+			content: '';
+			display: block;
+			clear: both;
+		}
+		/*finish autoslider*/
+
+.tagline{
+	color: white;
+	font-size: 2.5em;
+	text-shadow: 1px 1px 2px black, 0 0 1em red;
+	line-height: 40px;
+	padding-left: 65%;
+}
+#footer{
+	background: #333;
+	color: #fff;
+	height: 50px;
+}
