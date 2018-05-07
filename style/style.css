@@ -1,6 +1,11 @@
-#navbarSupportedContent{
+.collapse{
 	background: red;
-} 
+}
+.nav-item{
+	border: 2px yellow;
+	color: yellow;
+
+}
  #header{
 	background: url(img/shield-2300042_19201.png);
 	background-size: 100% 100%;
