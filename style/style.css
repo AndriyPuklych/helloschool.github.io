@@ -1,24 +1,25 @@
 .collapse{
-	background: red;
+	background-color: #F5F5F5; 
+	font-size: 1.1em;
 }
-.nav-item{
-	border: 2px yellow;
-	color: yellow;
-
+.navbar-toggler{
+	background: #F5F5F5;
+	border-color: #FF3300;
 }
- #header{
-	background: url(img/shield-2300042_19201.png);
-	background-size: 100% 100%;
+#header{
+	background: url(img/action-blur-bookcase-356093.png);
+	/* background-size: 100% 100%; */
+	display: block;
 	height: 600px;
+	max-width: 100%;
 
 }
-
 		/*autoslider*/
 		#slider{
-			width: 640px;
+			width: 384px;
 			height: 128px;
 /*			border: 5px solid black;
-*/			margin: 50px 55% auto;
+*/			margin: 50px;
 			overflow: hidden;
 		}
 		#polosa{
@@ -43,11 +44,13 @@
 	font-size: 2.5em;
 	text-shadow: 1px 1px 2px black, 0 0 1em red;
 	line-height: 40px;
-	padding-left: 65%;
+	margin-top: -80px;
+
 }
 #content{
-	background: #00FFFF;
+	background: #FF3300;
 	height: 50px;
+	margin-top: 30px;
 }
 #footer{
 	background: #333;
