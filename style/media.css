@@ -1,0 +1,25 @@
+/*large screens*/
+@media only screen and (max-width : 1200px){
+
+}
+/*medium, devices*/
+@media only screen and (max-width : 992px){
+
+}
+/*small, tablet*/
+@media only screen and (max-width : 768px){
+	.tagline{
+		font-size: 1.5rem;
+	}
+}
+/*extra small, phones*/
+@media only screen and (max-width : 480px){
+	.tagline{
+		text-align-last: center;
+		font-size: 1rem;
+	}
+}
+/*custom, iphone*/
+@media only screen and (max-width : 320px){
+
+}
