@@ -12,32 +12,8 @@ $(window).resize(function(){
 	$(".tab_item").hide().eq($(this).index()).fadeIn()
 }).eq(0).addClass("active");
 */
-/*autoSlider();
-var left = 0;
-var timer;
-*/
 
-/*function autoSlider(){
-	timer = setTimeout(function(){
-		var polosa = document.getElementById('polosa');
-		left = left-128;
-		if (left < -256){
-			left = 128;
-			clearTimeout(timer);
-		}
-		polosa.style.left = left+'px';
-		autoSlider();
-	}, 1500);
-}
-var slider = document.getElementById('slider');
-// если наведёшь на слайдер, то он остановится
-slider.onmouseover = function() {
-    clearTimeout(timer);
-};
-// если уберешь мышку со слайдера, он вновь запуститься
-slider.onmouseout = function() {
-    autoSlider();
-};﻿*/
+
 
 var toTop = 0;
 function autoPlay(){
@@ -55,7 +31,7 @@ function autoPlay(){
 }
 autoPlay();
 
-var slider = document.getElementById('slider');
+var slider = document.getElementById("row");
 // если наведёшь на слайдер, то он остановится
 slider.onmouseover = function() {
     clearTimeout(timer);
