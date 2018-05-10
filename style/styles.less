@@ -35,17 +35,13 @@
   padding: 15px 18px;
 } */
 
-@courseImg: url(style/img/course.png);
-
     /*autoslider*/
-    .course{
-      background: url(style/img/course.png);
-    }
+
     #slider{
       width: 384px;
       height: 128px;
 /*      border: 5px solid black;
-*/      margin: 50px;
+*/    margin: 50px;
       overflow: hidden;
     }
     #polosa{
@@ -64,3 +60,32 @@
       clear: both;
     }
     /*finish autoslider*/
+
+.wrap{
+  position:relative;
+  width: 128px;
+  height:384px;
+  margin:50px auto;
+  float: left;
+  margin-left: 5%;
+}
+.slider{
+  width: 128px;
+  height:384px;
+  margin:50px auto;
+  overflow:hidden;
+  &__row{
+    display:flex;
+    flex-direction: column;
+    
+    position:relative;
+    top: 0;
+    left: 0;
+    height: 768px;
+    overflow:hidden;
+    
+    transition:.1s;
+    .row__item{
+    }
+  }
+}
