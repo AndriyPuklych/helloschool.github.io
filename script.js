@@ -30,13 +30,3 @@ function autoPlay(){
   }, 1500);
 }
 autoPlay();
-
-var slider = document.getElementById("row");
-// если наведёшь на слайдер, то он остановится
-slider.onmouseover = function() {
-    clearTimeout(timer);
-};
-// если уберешь мышку со слайдера, он вновь запуститься
-slider.onmouseout = function() {
-    autoSlider();
-};﻿

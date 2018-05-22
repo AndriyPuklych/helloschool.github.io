@@ -1,6 +1,7 @@
 /*large screens*/
 @media only screen and (max-width : 1200px){
-
+	h5{
+		font-size: 1rem;
 }
 /*medium, devices*/
 @media only screen and (max-width : 992px){
@@ -8,13 +9,20 @@
 }
 /*small, tablet*/
 @media only screen and (max-width : 768px){
-	.tagline{
+	h1{
 		font-size: 1.5rem;
+	}
+	h3{
+		font-size: 1rem;
+		padding-top: 0;
+	}
+	h5{
+		font-size: 1rem;
 	}
 }
 /*extra small, phones*/
 @media only screen and (max-width : 480px){
-	.tagline{
+	h1{
 		text-align-last: center;
 		font-size: 1rem;
 	}

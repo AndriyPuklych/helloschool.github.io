@@ -4,24 +4,3 @@
 	overflow: hidden;
 	opacity: 1;
 } */
-.collapse{
-	background-color: #F5F5F5; 
-	font-size: 1.1em;
-}
-.navbar-toggler{
-	background: #F5F5F5;
-	border-color: #FF3300;
-}
-
-
-#content{
-	background: #FF3300;
-	height: 50px;
-	margin-top: 30px;
-}
-#footer{
-	background: #333;
-	color: #fff;
-	height: 50px;
-
-}

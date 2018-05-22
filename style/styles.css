@@ -4,6 +4,9 @@
   background-position: top center;
   background-size: cover;
   position: relative;
+}
+h1,
+h3 {
   color: white;
   text-shadow: 1px 1px 2px black, 0 0 1em red;
   font-size: 2.5rem;
@@ -33,6 +36,23 @@
   background: rgba(255,255,255,.25);
   padding: 15px 18px;
 } */
+.collapse {
+  background-color: #F5F5F5;
+  font-size: 1.1em;
+}
+.verticalLine {
+  border-left: 1px solid #DC3545;
+}
+h5 {
+  color: red;
+  margin-top: 7px;
+  padding-right: 10px;
+}
+h3 {
+  color: #DFE6E1;
+  font-size: 2rem;
+  padding-top: 23%;
+}
 .wrap {
   position: relative;
   width: 128px;
@@ -43,10 +63,11 @@
   margin-top: -5%;
 }
 .slider {
-  width: 128px;
+  width: 86px;
   height: 384px;
   margin: 50px auto;
   overflow: hidden;
+  color: white;
 }
 .slider__row {
   display: flex;
@@ -57,4 +78,18 @@
   height: 768px;
   overflow: hidden;
   transition: .1s;
+}
+.navbar-toggler {
+  background: #F5F5F5;
+  border-color: #FF3300;
+}
+#content {
+  background: #FF3300;
+  height: 50px;
+  margin-top: 30px;
+}
+#footer {
+  background: #333;
+  color: #fff;
+  height: 50px;
 }
