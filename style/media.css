@@ -14,10 +14,17 @@
 	}
 	h3{
 		font-size: 1rem;
-		padding-top: 0;
 	}
 	h5{
 		font-size: 1rem;
+	}
+	.media {
+		display: block;
+		img{
+		margin-left: 0;
+		margin-right: 0;
+		position: center;
+	}
 	}
 }
 /*extra small, phones*/
